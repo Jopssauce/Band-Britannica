@@ -1,8 +1,9 @@
 # Band Britannica (College Project)
 **This project requires Unity 2018.3.0f2**
 
-Band Britannica is a Third Person RPG Turn Based Match-3 singleplayer game. Use Match-3 to activate skills, spells, combos and a team attack to decimate your enemies! I worked multiple roles for this project to makeup for our lack of team members. I took the remaining important work by programming some of the games systems, designing the game, and creating the voxel style art and VFX seen throughout the game. The game has recieved the award of Best Capstone 3 during the Benilde March Incendium 2019. **[Game Trailer](https://www.youtube.com/watch?v=YWc5KTP8SHw&feature=emb_logo)**
+**[Game Trailer](https://www.youtube.com/watch?v=YWc5KTP8SHw&feature=emb_logo)**
 
+Band Britannica is a Third Person RPG Turn Based Match-3 singleplayer game. Use Match-3 to activate skills, spells, combos and a team attack to decimate your enemies! I worked multiple roles for this project to makeup for our lack of team members. I took the remaining important work by programming some of the games systems, designing the game, and creating the voxel style art and VFX seen throughout the game. The game has recieved the award of Best Capstone 3 during the Benilde March Incendium 2019. 
 <p align="center">
   <img src="https://i.imgur.com/IjIgKrt.png">
  </p>
