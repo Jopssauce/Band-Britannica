@@ -36,7 +36,7 @@ The combo and intensity system also come to play in this point. Player being abl
 
 ### Stages
 ![Imgur](https://i.imgur.com/W4Smt2z.png)
-The player will have to play through multiple levels called stages. The main goalof each stage will always be to defeat the opposing team. As the player moves on to new stages different enemies will propose new challenges to the player.
+The player will have to play through multiple levels called stages. The main goal of each stage will always be to defeat the opposing team. As the player moves on to new stages different enemies will propose new challenges to the player.
 
 ## Builds
 Playable builds of the game can be found here
