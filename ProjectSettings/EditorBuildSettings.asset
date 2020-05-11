@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Persistent Scene.unity
+    guid: 2c23813304c61be49aca100b037bd158
+  - enabled: 1
+    path: Assets/Scenes/Title Scene.unity
+    guid: 1fda1b5b43c99b449995f3014cd7da9c
+  - enabled: 1
+    path: Assets/Scenes/Intro Stage.unity
+    guid: e6e057261c4564e4d978d8b770d08853
+  - enabled: 1
+    path: Assets/Scenes/Map Scene.unity
+    guid: 992d844f66f09694e8c3b7ed540a3bdc
+  - enabled: 1
+    path: Assets/Scenes/LevelScenes/Board Scene.unity
+    guid: 35c4dea37d5187245bf03a9b27648a17
+  - enabled: 1
+    path: Assets/Scenes/Stage 0.unity
+    guid: 60b504f768ba92e43915d0c8e7d2f7c8
+  - enabled: 1
+    path: Assets/Scenes/Stage 1.unity
+    guid: 6559fcc2872d78f4ba74e8a60cb73115
+  - enabled: 1
+    path: Assets/Scenes/Stage 2.unity
+    guid: 6a00a916c9b7f4a45b2570b4d598d159
+  - enabled: 1
+    path: Assets/Scenes/Ending Scene.unity
+    guid: 4ec8faea83422b543b8445456da99160
+  - enabled: 1
+    path: Assets/Scenes/Stage 3.unity
+    guid: cfc2c08194f344f44b00ee153d4bcfec
+  m_configObjects: {}

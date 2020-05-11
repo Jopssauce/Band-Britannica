@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3384203626898484939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4059203616248372309}
+  - component: {fileID: 6393549654870593904}
+  m_Layer: 0
+  m_Name: ShieldBashSkill Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059203616248372309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384203626898484939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.400593, y: 17.417088, z: 5.3816414}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6393549654870593904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3384203626898484939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911c695da3c95b646a48684448f374de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: Shield Bash
+  cost: 0
+  type: 0
+  description: Deals a <color=blue>6 damage</color> and has a <color=blue>10% chance</color>
+    to stun.
+  Descriptions:
+  - 'Deals a '
+  - 
+  - ' and has a '
+  - 
+  - ' to stun '
+  - 
+  - .
+  InsertIndexes: 010000000300000005000000
+  SkillRequirements: 0100000001000000
+  _Intensity:
+    Levels:
+    - IDatas:
+      - 0.2
+      - 6
+    - IDatas:
+      - 0.3
+      - 11
+    - IDatas:
+      - 0.4
+      - 13
+  OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: SkillEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnActivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  actor: {fileID: 0}
+  Lvl1Req: 5
+  Lvl2Req: 8
+  Lvl3Req: 10
+  BaseDamage: 6
+  debuffToAdd: {fileID: 4817210039907079068, guid: 89bdd2cf48c951e43b05a2b1d153b872,
+    type: 3}
+  chanceToAddBuff: 10
+  targetOffSet: 3
+  travelDuration: 1
+  spawnDuration: 1
+  windUp: -15
+  windUpDuration: 1
+  slam: 75
+  slamDuration: 0.1
+  returnDuration: 1
+  shieldObject: {fileID: 1337037279097235618, guid: c78ea14ea9e29054588fd00f38b824f5,
+    type: 3}
+  spawnOffSet: 8
+  spawnSize: 0.6

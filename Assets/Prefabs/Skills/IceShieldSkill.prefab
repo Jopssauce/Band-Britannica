@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &291298004005968335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 291298004005968334}
+  - component: {fileID: 291298004005968333}
+  m_Layer: 0
+  m_Name: IceShieldSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &291298004005968334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291298004005968335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &291298004005968333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291298004005968335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4860d76977677a84f8227a6261d52f19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: Ice Shield
+  cost: 0
+  type: 1
+  description: Will reduce all incoming damge by <color=blue>10%</color> for the whole
+    team.
+  Descriptions:
+  - 'Will reduce all incoming damge by '
+  - 
+  - ' for the whole team.'
+  - 
+  InsertIndexes: 0100000003000000
+  SkillRequirements: 0000000003000000
+  _Intensity:
+    Levels:
+    - IDatas:
+      - 0.2
+    - IDatas:
+      - 0.3
+    - IDatas:
+      - 0.4
+  OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: SkillEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnActivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  actor: {fileID: 0}
+  Lvl1Req: 5
+  Lvl2Req: 8
+  Lvl3Req: 10
+  _ReduceDamageBuff: {fileID: 8747603031117542857, guid: c1c7eca5f7897f54db7e3ac730cfc24d,
+    type: 3}
+  riseRange: 1
+  riseDuration: 0.7
+  spinTime: 0.5
+  spinDuration: 0.8

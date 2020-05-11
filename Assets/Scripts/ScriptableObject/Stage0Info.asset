@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde338c9a875c0a4e95ff8223b3e2af2, type: 3}
+  m_Name: Stage0Info
+  m_EditorClassIdentifier: 
+  missionTitle: Training
+  missionDescription: You'll all be dead by tomorrow, so don't bother giving your
+    names. Welcome to Sir Brunor the Black's Knightly Order, King Arthur has given
+    you the honor fighting in his name and dying, lots and lots of dying. Other knights
+    are cowards they don't take the jobs we do but Sir Brunor, he'll have us take
+    it all. Now before you're sent to die, your bowels must tested if they can hold
+    the glory of battle.
+  unlocked: 1
+  completed: 1
+  missionNumber: Mission 1

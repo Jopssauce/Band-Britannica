@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c9e6b98d731e24499d1241c29d7cb4, type: 3}
+  m_Name: TutorialDialogue1
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Alright soldier, its time for basic training.
+  - Its just training so you probably won't die. Now lets get started.
+  - The Units on the left <color=cyan>are your characters</color>.
+  - 'While the ones on the right are your <color=red>enemies</color>.
+
+'
+  - The Board beneath my magnificent text is the Matching Board.
+  - Use the left mouse button to <color=yellow>match tiles in a chain</color> on the
+    board.
+  - You can match tiles in any direction but you must <color=yellow> match 3 tiles
+    of the same color before being able to match another of a different or the same
+    color.</color>
+  - You can also <color=yellow>right click while matching tiles to cancel matching
+    .</color>
+  - Now try matching a tile.

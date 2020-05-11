@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7497602415575883365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7497602415575883362}
+  - component: {fileID: 7497602415575883361}
+  - component: {fileID: 7497602415575883360}
+  - component: {fileID: 8805392331016022014}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7497602415575883362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497602415575883365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7497602415575883361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497602415575883365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a250cfa49935094ea576aff9a80b664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefabs:
+  - {fileID: 7107471177322012022, guid: d8871260c1eb1134b9912062bcd1141d, type: 3}
+  - {fileID: 5777969090883114634, guid: 8833e564a5707b34ebaa8b727579c8b3, type: 3}
+  - {fileID: 5777969090883114634, guid: 472e053690846fa4fa801fa597db6bb0, type: 3}
+  - {fileID: 5777969090883114634, guid: c7976f54bfb171e4280eeffa07ee4159, type: 3}
+  ParentTransform: {fileID: 0}
+  Grid:
+    x: 7
+    y: 7
+  MinimumPosition: {x: -220, y: -182}
+  Spacing: {x: 31, y: 31}
+  OffsetZ: -1
+  OnBoardGenerateDone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardGenerateEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &7497602415575883360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497602415575883365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8e4bee0f9ef7c4f835d798ba02758d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tiles: []
+  CurrentSelectedTileType: 0
+  SelectedTileType: 
+  IntervalCount: 3
+  DestroyTimer: 0.1
+  IsClearBoard: 0
+  HighlightCol: {r: 1, g: 1, b: 1, a: 0.8}
+  OnDestroyTiles:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnFillTile:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnAddTile:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnRemoveTile:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnDeselectTiles:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnEndBoardInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: BoardEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnStartBoardEffect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: TileMatchedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  ShakeStrength: 3
+  ShakeTimer: 0.2
+  tilesToManualMove: []
+  calledEvent: 0
+--- !u!114 &8805392331016022014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497602415575883365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c86e65ec5b6c904a81e754e6d09b514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

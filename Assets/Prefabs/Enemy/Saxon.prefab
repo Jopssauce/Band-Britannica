@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4368467328321360688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4368467328320999184}
+  - component: {fileID: 4368467328318132016}
+  - component: {fileID: 4368467328319098352}
+  - component: {fileID: 8177139852319012688}
+  - component: {fileID: 1982202656855624146}
+  - component: {fileID: 6570689367159798696}
+  - component: {fileID: 712346796424758660}
+  - component: {fileID: 1766195984783549216}
+  m_Layer: 0
+  m_Name: Saxon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4368467328320999184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 33.916573, y: 0, z: -30.280523}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4368467328318132016
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Mesh: {fileID: 4300000, guid: e647467482540a547832db41497b25c8, type: 3}
+--- !u!23 &4368467328319098352
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e647467482540a547832db41497b25c8, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &8177139852319012688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968e59cb8c16d264eae2a62b200af48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterName: Saxon
+  Health: 90
+  maxHealth: 90
+  Mana: 20
+  maxMana: 20
+  MaxTurns: 2
+  CurrentTurns: 1
+  Damage: 10
+  Shield: 0
+  IsAlive: 1
+  IsUndead: 0
+  characterHighlight: {fileID: 0}
+  OnAddHealth:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: HealthEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnDeductHealth:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: HealthEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnDealDamage:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DamageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Type: 0
+--- !u!114 &1982202656855624146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544ff6eda65b3bc45ab7ed918cc21f48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 567236080021994136, guid: 5e76986ae5ec9e144be1249a32372c6e, type: 3}
+  skillInstances: []
+  lastSkillUsed: {fileID: 0}
+--- !u!114 &6570689367159798696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a4d4bb59b99294cb7d1abce1aa391c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnDestinationReach:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  maxSpeed: 10
+  acceleration: 5
+  destroyRange: 5
+  stopRange: 0
+  particleEffectPrefab: {fileID: 0}
+  destination: {x: 0, y: 0, z: 0}
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  duration: 1
+  skullPrefab: {fileID: 9029529185945553995, guid: 64fc843a71a32dc4d9382d20447ea8e8,
+    type: 3}
+  deathParticle: {fileID: 7193434805616734466, guid: af927f438877e8b4ea7a1a880f81464b,
+    type: 3}
+  skullSpawnOffset: 10
+  floatPointOffset: 1
+--- !u!136 &712346796424758660
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: -0.00000010430813, y: 0.25148165, z: -0.0033900477}
+--- !u!114 &1766195984783549216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368467328321360688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8847d4335ee6ad46aaf2cdac9d54c94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buffs: []
+  PresetBuffs: []

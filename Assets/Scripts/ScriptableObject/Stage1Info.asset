@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde338c9a875c0a4e95ff8223b3e2af2, type: 3}
+  m_Name: Stage1Info
+  m_EditorClassIdentifier: 
+  missionTitle: Battle of River Glein
+  missionDescription: Well men and women today is tomorrow and you know what that
+    means, its time to get to work. Out there are food and supplies going to the enemy
+    camp, your job is to "appropriate" those items of interest. Lucky for you folks
+    this is a job where you'll have to be crippled to not live through this. Now seeing
+    as your bowels lived through yesterday I'd say you're ready for this now go out
+    there and be winners.
+  unlocked: 1
+  completed: 1
+  missionNumber: Mission 2
